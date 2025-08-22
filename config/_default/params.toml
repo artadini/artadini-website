@@ -44,7 +44,7 @@ link = "contact"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#ffffffff"
 include_sections = [""]
 show_image = true
