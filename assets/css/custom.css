@@ -1,2 +1,59 @@
-/* DO NOT WRITE ANY STYLE IN THIS FILE */
-/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+/* Add your own custom styles here */
+
+/* buttons */
+.btn {
+  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold normal-case transition;
+}
+.btn:hover {
+  color: #cc78a7 !important;
+}
+
+.btn-sm {
+  @apply rounded-sm px-4 py-1.5 text-sm;
+}
+
+.btn-primary {
+  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+}
+
+
+.btn-outline-primary {
+  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+}
+
+/* logo slider */
+.container {
+  overflow: hidden;
+  .slider {
+    animation: slidein 18s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 103px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
