@@ -6,8 +6,8 @@ logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "280px"
-logo_height = "44px"
+logo_width = "230x"
+logo_height = "44x"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
@@ -32,7 +32,7 @@ copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
-enable = true
+enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
@@ -62,7 +62,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["artadini", "nikolas artadi", "data engineer", "data engineering", "analytics", "data analytics", "business analytics", "data science", "machine learning", "big data", "bi", "business intelligence", "data pipeline", "etl", "data warehouse", "data modeling", "sql", "python", "airflow", "dbt", "data visualization", "dashboard", "kpi", "metrics", "data governance", "data architecture", "cloud data", "aws", "gcp", "azure", "snowflake", "redshift", "bigquery", "spark", "kafka", "real-time analytics", "batch processing", "stream processing", "data transformation", "data quality", "data ops", "mlops", "predictive analytics", "statistical analysis", "a/b testing", "experimentation", "customer analytics", "churn prediction", "revenue optimization", "growth analytics", "product analytics", "marketing analytics", "financial analytics", "operational analytics", "reporting", "automated reporting", "self-service analytics", "data democratization", "data-driven decision making"]
+keywords = ["artadini", "nikolas artadi", "data engineer", "data engineering", "analytics", "data analytics", "business analytics", "data science", "machine learning", "big data", "bi", "business intelligence", "data pipeline", "etl", "data warehouse", "data modeling", "sql", "python", "airflow", "dbt", "data visualization", "dashboard", "kpi", "metrics", "data governance", "data architecture", "cloud data", "aws", "gcp", "azure", "snowflake", "redshift", "bigquery", "spark", "kafka", "real-time analytics", "batch processing", "stream processing", "data transformation", "data quality", "data ops", "mlops", "predictive analytics", "statistical analysis", "a/b testing", "experimentation", "customer analytics", "churn prediction", "revenue optimization", "growth analytics", "product analytics", "marketing analytics", "financial analytics", "operational analytics", "reporting", "automated reporting", "self-service analytics", "data democratization", "data-driven decision making", 'freelance','freiberufler']
 description = "Data-driven insights and scalable analytics solutions."
 author = "artadini"
 image = "images/logo.png"
@@ -107,5 +107,5 @@ map_marker = "images/marker.png"
 [subscription]
 enable = false
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+mailchimp_form_action = "" # replace this url with yours
+mailchimp_form_name = ""

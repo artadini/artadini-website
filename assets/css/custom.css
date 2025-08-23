@@ -1,24 +1,18 @@
 /* Add your own custom styles here */
 
 /* buttons */
-.btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold normal-case transition;
-}
 .btn:hover {
   color: #cc78a7 !important;
 }
 
-.btn-sm {
-  @apply rounded-sm px-4 py-1.5 text-sm;
+/* titles */
+h1 {
+  @apply text-4xl font-bold mb-4;
 }
 
-.btn-primary {
-  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
-}
-
-
-.btn-outline-primary {
-  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+/* paragraphs */
+p {
+  @apply text-base font-sans;
 }
 
 /* logo slider */
@@ -32,7 +26,7 @@
       display: inline-block;
       margin: 103px 0;
       .fab {
-        width: calc(100% / 5);
+        width: calc(100% / 4.3);
         animation: fade-in 0s 
           cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
       }

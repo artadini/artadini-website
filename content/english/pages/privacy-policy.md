@@ -12,7 +12,6 @@ Nikolas Artadi Cogorno<br>
 Oberseestr. 103<br>
 13053 Berlin<br>
 Germany<br><br>
-**Phone:** +49 (0)152 25903680<br>
 **Email:** privacy@artadini.eu<br>
 **VAT ID:** 32/459/01390<br><br>
 Responsible for content according to § 55 para. 2 RStV:<br>

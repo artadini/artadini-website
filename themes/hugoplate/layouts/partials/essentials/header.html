@@ -138,9 +138,10 @@
     </div>
   </nav>
 
-{{ $calComWidget := resources.Get "js/cal-com-widget.js"}}
-<script type="module">
-  import { calComWidget } from '{{ $calComWidget.RelPermalink }}';
-  calComWidget();
-</script>
+  <!-- calendar widget -->
+      {{ $calComWidget := resources.Get "js/cal-com-widget.js"}}
+    <script type="module">
+      import { calComWidget } from '{{ $calComWidget.RelPermalink }}';
+      calComWidget();
+    </script>
 </header>
