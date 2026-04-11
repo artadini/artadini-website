@@ -5,11 +5,11 @@ description: "Don't just take my word for it, hear from some of the folk I've wo
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    link: "artadini.eu"
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGbUrREr5Sbdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732393406124?e=1758758400&v=beta&t=MJyWNF79ZnxknpUO5dMlMTY7d9ZhIGYRFxvMVztZMVk"
-    content: "dasdasdasdasd"
+  - name: "Sophie Lülsdorf"
+    designation: "[CEO Aurevo Energy GmbH](https://www.aurevo-energy.com)"
+    link: "https://www.aurevo-energy.com/"
+    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQF70yqyMI_0Yg/profile-displayphoto-shrink_800_800/B4DZak_77UGwAo-/0/1746524946547?e=1777507200&v=beta&t=kII4hb-ctSV6OGEezhEAMpOrlCsfOZOSZaDAm6LFeMY"
+    content: Nikolas empowered us to become self-sufficient, turning dependency into capability.
 
 # don't create a separate page
 build:
