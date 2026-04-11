@@ -16,21 +16,29 @@
 
   // Testimonial Slider
   // ----------------------------------------
-  new Swiper(".testimonial-slider", {
-    spaceBetween: 24,
-    loop: true,
-    pagination: {
-      el: ".testimonial-slider-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
+  const testimonialSlider = document.querySelector(".testimonial-slider");
+
+  if (testimonialSlider) {
+    const testimonialSlidesCount =
+      testimonialSlider.querySelectorAll(".swiper-slide").length;
+    const shouldLoopTestimonials = testimonialSlidesCount > 3;
+
+    new Swiper(".testimonial-slider", {
+      spaceBetween: 24,
+      loop: shouldLoopTestimonials,
+      pagination: {
+        el: ".testimonial-slider-pagination",
+        type: "bullets",
+        clickable: true,
       },
-      992: {
-        slidesPerView: 3,
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
       },
-    },
-  });
+    });
+  }
 })();
