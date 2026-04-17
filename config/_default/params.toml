@@ -49,8 +49,8 @@ primary_color = "#ffffffff"
 include_sections = [""]
 show_image = true
 show_description = true
-show_tags = true
-show_categories = true
+show_tags = false
+show_categories = false
 
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
