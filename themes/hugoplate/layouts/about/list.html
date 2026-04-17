@@ -1,13 +1,27 @@
 {{ define "main" }}
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
-        </div>
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="md:col-10 lg:col-7 text-center">
+        {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt"
+        .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
+        <h2 class="h3 mb-6">{{ .Title }}</h2>
+        <div class="content">{{ .Content }}</div>
+        {{ with .Params.button }}
+          {{ if .enable }}
+            <a class="btn btn-primary mt-8" href="{{ .link | absURL }}">
+              {{ .label }}
+              <i class="fa fa-arrow-right pl-2"></i>
+            </a>
+          {{ end }}
+        {{ else }}
+          <a class="btn btn-primary mt-8" href="{{ "contact" | absURL }}">
+            Let's talk
+            <i class="fa fa-arrow-right pl-2"></i>
+          </a>
+        {{ end }}
       </div>
     </div>
-  </section>
+  </div>
+</section>
 {{ end }}

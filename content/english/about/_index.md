@@ -1,19 +1,24 @@
 ---
-title: "Hey, I am Nikolas Artadi!"
+title: "Hi, I am Nikolas Artadi!"
 meta_title: "About Nikolas Artadi | Data Engineer | Revenue Operations Expert"
 description: "Learn about my journey from Sales to Data Engineer and how I've been turning data into an asset for my clients."
 image: "/images/avatar.png"
 draft: false
 ---
 
-Eight years ago, I thought every problem could be solved with a good spreadsheet. Today, those spreadsheets have evolved into multi-cloud pipelines that save companies millions.
+Over the past ten years, I've evolved from frontline sales and customer success to architecting enterprise-grade data infrastructure **that powers revenue growth and operational excellence.**
 
-My path wasn't linear. Sales, customer success, market research, then Berlin's fintech scene. Each stop revealed the same painful gap: businesses drowning in data but starving for understanding.
+My career spans Berlin's fintech ecosystem, market research and high-growth environments. Each role exposing the **critical disconnect between abundant data and actionable intelligence.** I've made closing that gap my expertise.
 
-That gap became my obsession.
+As a principal data engineer and revenue operations leader, I design scalable pipelines, enforce data governance, and migrate complex systems (HubSpot, Prophix, Iterable) to **deliver measurable ROI:** €1.7M in optimized opportunity costs via churn alerting; €200K+ annual savings through ETL migrations and microservice redesigns; 25% uplift in sales forecasting accuracy.
 
-I'm still the guy who starts complex projects with pen and paper, sketching logic before building systems. My GitHub reflects this journey—bridging business needs with technical solutions, experimenting with orchestration tools, diving into GO and system design.
+I begin with rigorous process mapping and stakeholder alignment, then build with tools like Python, SQL, dbt, Airflow, Docker and multi-cloud platforms. **Always prioritizing a data-as-a-product mindset.**
 
-When I'm not building pipelines or reading enterprise architecture patterns (currently Martin Fowler's classic), I'm cycling around Berlin.
+When not engineering outcomes or studying enterprise patterns (Fowler remains essential), I cycle Berlin's paths, refining my systems thinking.
 
-> To seek is to suffer. To find is peace. — A Zen saying
+<div align="left">
+
+> Before enlightenment: chop wood, carry water. <br>
+> After enlightenment: chop wood, carry water. — Zen Proverb
+
+</div>
